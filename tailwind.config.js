@@ -8,20 +8,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        surface: "#011520",
-        "surface-container-lowest": "#00101a",
-        "surface-container-low": "#081e29",
-        "surface-container-highest": "#243743",
-        primary: "#ffb3ad",
-        "primary-container": "#ce1021",
-        secondary: "#b0bec5",
-        "secondary-container": "#3e4b51",
-        "on-surface": "#d0e5f5",
-        "on-surface-variant": "#b0bec5",
-        "outline-variant": "rgba(208, 229, 245, 0.15)",
+        surface: "#0c0e10",
+        "surface-container-lowest": "#060708",
+        "surface-container-low": "#111315",
+        "surface-container-highest": "#1a1d21",
+        primary: "#ce1021",
+        "primary-container": "#e61225",
+        secondary: "#8a8d91",
+        "secondary-container": "#23262b",
+        "on-surface": "#ffffff",
+        "on-surface-variant": "#a1a5ab",
+        "outline-variant": "rgba(255, 255, 255, 0.1)",
       },
       fontFamily: {
-        headline: ["'Space Grotesk'", "sans-serif"],
+        headline: ["'Montserrat'", "'Space Grotesk'", "sans-serif"],
         body: ["'Inter'", "sans-serif"],
         label: ["'Inter'", "sans-serif"]
       },

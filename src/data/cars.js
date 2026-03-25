@@ -1,7 +1,7 @@
 export const cars = [
   {
     id: '1',
-    name: 'Toyota Crown RS',
+    name: 'Тест',
     country: 'JAPAN',
     year: '2021',
     mileage: '34k км',

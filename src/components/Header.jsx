@@ -8,11 +8,11 @@ const Header = () => {
           <img src="/logo.png" alt="CARTEAM PRO" className="h-8 md:h-10 object-contain" />
         </a>
         <div className="hidden md:flex items-center space-x-8 lg:space-x-10 font-headline uppercase tracking-wider text-[0.65rem] lg:text-[0.7rem] font-bold">
-          <a className="text-primary-container relative after:content-[''] after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:bg-primary-container after:rounded-full" href="#home">ГЛАВНАЯ</a>
-          <a className="text-on-surface-variant hover:text-on-surface transition-colors hover:opacity-80" href="#workflow">СХЕМА РАБОТЫ</a>
-          <a className="text-on-surface-variant hover:text-on-surface transition-colors hover:opacity-80" href="#inventory">КАТАЛОГ</a>
-          <a className="text-on-surface-variant hover:text-on-surface transition-colors hover:opacity-80" href="#reviews">ОТЗЫВЫ</a>
-          <a className="text-on-surface-variant hover:text-on-surface transition-colors hover:opacity-80" href="#map">ГДЕ МЫ НАХОДИМСЯ</a>
+          <a className="text-on-surface hover:text-primary-container transition-colors" href="/#home">ГЛАВНАЯ</a>
+          <a className="text-on-surface-variant hover:text-on-surface transition-colors hover:opacity-80" href="/#workflow">СХЕМА РАБОТЫ</a>
+          <a className="text-primary-container relative after:content-[''] after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:bg-primary-container after:rounded-full" href="/catalog">КАТАЛОГ</a>
+          <a className="text-on-surface-variant hover:text-on-surface transition-colors hover:opacity-80" href="/#reviews">ОТЗЫВЫ</a>
+          <a className="text-on-surface-variant hover:text-on-surface transition-colors hover:opacity-80" href="/#map">ГДЕ МЫ НАХОДИМСЯ</a>
         </div>
         <a href="#cta" className="bg-primary-container text-surface-container-lowest px-4 py-2 rounded-sm font-black uppercase text-[0.65rem] tracking-widest transition-all hover:bg-primary">
           НАЧАТЬ ИМПОРТ

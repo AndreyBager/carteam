@@ -28,11 +28,11 @@ const CarCard = ({ car }) => {
         <div className="flex justify-between items-end">
           <div>
             <div className="text-[0.65rem] text-on-surface-variant font-bold uppercase tracking-widest mb-1">Цена под ключ</div>
-            <div className="text-xl font-headline font-black italic text-primary-container">{car.price} ₽</div>
+            <div className="text-xl font-headline font-black italic text-primary-container">{car.price}</div>
           </div>
           <div className="text-right">
             <div className="text-[0.65rem] text-on-surface-variant/50 font-bold uppercase tracking-widest mb-1">В РФ от</div>
-            <div className="text-sm font-bold text-on-surface-variant line-through">{car.originalPrice} ₽</div>
+            <div className="text-sm font-bold text-on-surface-variant line-through">{car.originalPrice}</div>
           </div>
         </div>
       </div>

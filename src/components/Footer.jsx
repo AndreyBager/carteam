@@ -21,11 +21,11 @@ const Footer = () => {
         <div>
           <h5 className="text-primary-container font-black text-[0.6rem] uppercase tracking-[0.2em] mb-4">Меню</h5>
           <ul className="space-y-3">
-            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="#home">Главная</a></li>
-            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="#workflow">Схема работы</a></li>
-            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="#inventory">Каталог</a></li>
-            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="#reviews">Отзывы</a></li>
-            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="#map">Где мы находимся</a></li>
+            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="/#home">Главная</a></li>
+            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="/#workflow">Схема работы</a></li>
+            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="/catalog">Каталог</a></li>
+            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="/#reviews">Отзывы</a></li>
+            <li><a className="text-on-surface-variant hover:text-on-surface transition-colors text-[0.6rem] uppercase tracking-widest font-bold" href="/#map">Где мы находимся</a></li>
           </ul>
         </div>
         <div>
